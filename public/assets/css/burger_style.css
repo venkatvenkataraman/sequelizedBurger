@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(230, 191, 173);
+}
+
+
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .create-form {
+    padding: 5px;
+    margin: 5px;
+    background:#db640f7a;
+    border: 2px solid #838080;
+  }
+  
+  .form-group {
+    margin-bottom: 5px;
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+  h2 {
+      text-align: center;
+  }
+
+  h3 {
+      text-align: center;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  ul {
+    list-style: none;
+    background-color: #ffb100;
+    padding: 15px;
+    margin: 15px;
+  }
+
+  li {
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
+  }
+
+  li::before {content: "▪"; font-size: 20px; color: red;
+    display: inline-block; width: 2em;
+    margin-left: -1em}
+
+  
+  .button.devour{margin: 0 auto};
+  .button.delete-burger{margin: 0 auto};
